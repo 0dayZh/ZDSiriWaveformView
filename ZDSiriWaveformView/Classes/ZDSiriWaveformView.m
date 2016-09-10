@@ -8,6 +8,12 @@
 
 #import "ZDSiriWaveformView.h"
 
+@interface ZDSiriWaveformView ()
+
+@property (nonatomic, strong) NSMutableArray    *height;
+
+@end
+
 @implementation ZDSiriWaveformView
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
@@ -28,6 +34,8 @@
     return self;
 }
 
-- (void)innerInit {}
+- (void)innerInit {
+    self.backgroundColor = [UIColor blackColor];
+}
 
 @end

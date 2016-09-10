@@ -15,6 +15,7 @@
 		5B60B2491849F9DF361F483B3CCB2E58 /* ZDSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AB3E939EA1F988B21166A55292138A /* ZDSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85897A35927BA5BACBC7FE7AE8F32CD8 /* Pods-ZDSiriWaveformView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2B67683EA2A06911B17A493230CC7 /* Pods-ZDSiriWaveformView_Example-dummy.m */; };
 		AE23EE7120A42F18EC37ED370A2151EC /* Pods-ZDSiriWaveformView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DB2AAC69575994E587535CB9B10E90 /* Pods-ZDSiriWaveformView_Tests-dummy.m */; };
+		E97D853B1D83BF8400B9D901 /* ZDPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E97D853A1D83BF8100B9D901 /* ZDPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9AC59EC1D83B8C100561913 /* ZDSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */; };
 		E9AC59ED1D83B8C100561913 /* ZDSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AC59EB1D83B8C100561913 /* ZDSiriWaveformView.m */; };
 		E9AC59EE1D83B8EA00561913 /* ZDSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,6 +63,7 @@
 		D7B95E64DC63F9DA1E7CD2E597173F36 /* Pods-ZDSiriWaveformView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDSiriWaveformView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D981AF2D4C1525FC13068CF0B9B38FD3 /* ZDSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC075EBFB5ABD30CDC1FD7943E89E82D /* Pods_ZDSiriWaveformView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDSiriWaveformView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97D853A1D83BF8100B9D901 /* ZDPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPublicHeader.h; sourceTree = "<group>"; };
 		E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDSiriWaveformView.h; sourceTree = "<group>"; };
 		E9AC59EB1D83B8C100561913 /* ZDSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDSiriWaveformView.m; sourceTree = "<group>"; };
 		F45F763054CE2E2CD536F6BC7A23F7E0 /* ZDSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZDSiriWaveformView.modulemap; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		5FCAB78910D91138A09A9848FCC3ECCB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E97D853A1D83BF8100B9D901 /* ZDPublicHeader.h */,
 				E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */,
 				E9AC59EB1D83B8C100561913 /* ZDSiriWaveformView.m */,
 			);
@@ -235,6 +238,7 @@
 			files = (
 				5B60B2491849F9DF361F483B3CCB2E58 /* ZDSiriWaveformView-umbrella.h in Headers */,
 				E9AC59EE1D83B8EA00561913 /* ZDSiriWaveformView.h in Headers */,
+				E97D853B1D83BF8400B9D901 /* ZDPublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

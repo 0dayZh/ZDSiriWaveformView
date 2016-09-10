@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-@import ZDSiriWaveformView;
+#import <ZDSiriWaveformView/ZDSiriWaveformView.h>
 
 @interface ZDViewController : UIViewController
 

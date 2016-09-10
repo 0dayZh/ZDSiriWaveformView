@@ -64,6 +64,7 @@
 		98A89F60E7B8DF7ACC7A28FE /* Pods_ZDSiriWaveformView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDSiriWaveformView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AD06A3B5CFA550EE1B3C23 /* Pods_ZDSiriWaveformView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDSiriWaveformView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACA09D6F92D5F72A340DD5F /* Pods-ZDSiriWaveformView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDSiriWaveformView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDSiriWaveformView_Example/Pods-ZDSiriWaveformView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E97D85381D83BD2900B9D901 /* ZDSiriWaveformView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZDSiriWaveformView.framework; path = "../../../Library/Developer/Xcode/DerivedData/ZDSiriWaveformView-epeyyjeilvpuxthbugtstbktmctx/Build/Products/Debug-iphonesimulator/ZDSiriWaveformView/ZDSiriWaveformView.framework"; sourceTree = "<group>"; };
 		F0DDCFF6189ACE82F7FC0812 /* Pods-ZDSiriWaveformView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDSiriWaveformView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDSiriWaveformView_Tests/Pods-ZDSiriWaveformView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +118,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E97D85381D83BD2900B9D901 /* ZDSiriWaveformView.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -517,6 +519,12 @@
 				GCC_PREFIX_HEADER = "ZDSiriWaveformView/ZDSiriWaveformView-Prefix.pch";
 				INFOPLIST_FILE = "ZDSiriWaveformView/ZDSiriWaveformView-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ZDSiriWaveformView\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -533,6 +541,12 @@
 				GCC_PREFIX_HEADER = "ZDSiriWaveformView/ZDSiriWaveformView-Prefix.pch";
 				INFOPLIST_FILE = "ZDSiriWaveformView/ZDSiriWaveformView-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ZDSiriWaveformView\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
