@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZDSiriWaveformView_Example' do
+  pod 'ZDSiriWaveformView', :path => '../'
+
+  target 'ZDSiriWaveformView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

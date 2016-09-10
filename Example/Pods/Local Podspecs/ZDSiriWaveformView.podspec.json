@@ -1,0 +1,22 @@
+{
+  "name": "ZDSiriWaveformView",
+  "version": "0.1.0",
+  "summary": "A short description of ZDSiriWaveformView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ZDSiriWaveformView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "0dayZh": "0day.zh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ZDSiriWaveformView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZDSiriWaveformView/Classes/**/*"
+}

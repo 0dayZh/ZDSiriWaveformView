@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DEEC6D461EABB0454C804DE1DDB6A1 /* Pods-ZDSiriWaveformView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2EEAE87D4D10556EBB85335B073FDC /* Pods-ZDSiriWaveformView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2378B3635332DA97CDD3586A20D95DDE /* ZDSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 236AA2083715D9002B4C5DCA0A9EC36B /* ZDSiriWaveformView-dummy.m */; };
+		31285E09FC475EB8E2DE0C759C90475F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		530977AAA1ADEA6306AFFC81EA57641B /* Pods-ZDSiriWaveformView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A9CE05EE89CE8DFA81013078386091 /* Pods-ZDSiriWaveformView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5901681906A6CCF0FB33C608113923E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5B60B2491849F9DF361F483B3CCB2E58 /* ZDSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AB3E939EA1F988B21166A55292138A /* ZDSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85897A35927BA5BACBC7FE7AE8F32CD8 /* Pods-ZDSiriWaveformView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2B67683EA2A06911B17A493230CC7 /* Pods-ZDSiriWaveformView_Example-dummy.m */; };
+		AE23EE7120A42F18EC37ED370A2151EC /* Pods-ZDSiriWaveformView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DB2AAC69575994E587535CB9B10E90 /* Pods-ZDSiriWaveformView_Tests-dummy.m */; };
+		E9AC59EC1D83B8C100561913 /* ZDSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */; };
+		E9AC59ED1D83B8C100561913 /* ZDSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AC59EB1D83B8C100561913 /* ZDSiriWaveformView.m */; };
+		E9AC59EE1D83B8EA00561913 /* ZDSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA399C2D2548AC290DC70639895FCA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B436F41F87781A6CC49A40FA3D71EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB9B04C914B4884A60574EF34E95CF02;
+			remoteInfo = ZDSiriWaveformView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F43314B96529C29AE5F1CD706E27AD /* Pods-ZDSiriWaveformView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDSiriWaveformView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1A2EEAE87D4D10556EBB85335B073FDC /* Pods-ZDSiriWaveformView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDSiriWaveformView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		236AA2083715D9002B4C5DCA0A9EC36B /* ZDSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
+		25AB3E939EA1F988B21166A55292138A /* ZDSiriWaveformView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDSiriWaveformView-umbrella.h"; sourceTree = "<group>"; };
+		2A4F986AA119F5D11071C864FAB9AD6F /* Pods-ZDSiriWaveformView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDSiriWaveformView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		31DB2AAC69575994E587535CB9B10E90 /* Pods-ZDSiriWaveformView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDSiriWaveformView_Tests-dummy.m"; sourceTree = "<group>"; };
+		3477DE497ABBFD31A44D232A78DC47ED /* Pods-ZDSiriWaveformView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDSiriWaveformView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		36A52BCD27DDA7A4F34A333F8502F3E8 /* Pods-ZDSiriWaveformView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZDSiriWaveformView_Example.modulemap"; sourceTree = "<group>"; };
+		43D681FF4E7E8CA9B24F0BAA23D81644 /* Pods-ZDSiriWaveformView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDSiriWaveformView_Tests-resources.sh"; sourceTree = "<group>"; };
+		43D8A3310B6AF1DE71A4C4678B8F06D4 /* Pods-ZDSiriWaveformView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDSiriWaveformView_Example-resources.sh"; sourceTree = "<group>"; };
+		456ED3D6207CDDC3CAB301589DCF60D2 /* Pods-ZDSiriWaveformView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDSiriWaveformView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E9865A093425E70CFF56CB1570FF7D1 /* Pods_ZDSiriWaveformView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDSiriWaveformView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527E501E73E1AE597DEE2EECC940AA8C /* Pods-ZDSiriWaveformView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDSiriWaveformView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72818831F4D6D50D82550936A48F3880 /* Pods-ZDSiriWaveformView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDSiriWaveformView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		79B4D90E17FF5577C168997B9FA779C1 /* Pods-ZDSiriWaveformView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDSiriWaveformView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D63FE38DAD4A46E2FB86BABBD5AD7F0 /* Pods-ZDSiriWaveformView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDSiriWaveformView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		830E1580F52BA434FCDE79AC840DE2FD /* Pods-ZDSiriWaveformView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZDSiriWaveformView_Tests.modulemap"; sourceTree = "<group>"; };
+		883C53FBEE789B6CCC324FECE7629177 /* ZDSiriWaveformView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDSiriWaveformView.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE2E68CFA263B90E5358F457517B2AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A78860C452657A02092A208A0FF7C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B2B67683EA2A06911B17A493230CC7 /* Pods-ZDSiriWaveformView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDSiriWaveformView_Example-dummy.m"; sourceTree = "<group>"; };
+		C1A9CE05EE89CE8DFA81013078386091 /* Pods-ZDSiriWaveformView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDSiriWaveformView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C3C6AE712CA307B5D5F7F486BD47D3A8 /* ZDSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
+		CE7029FA857602105FAA5C96B47EE1EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D31C54EF8792A2EDFC0DC07123D775BD /* Pods-ZDSiriWaveformView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDSiriWaveformView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7B95E64DC63F9DA1E7CD2E597173F36 /* Pods-ZDSiriWaveformView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDSiriWaveformView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D981AF2D4C1525FC13068CF0B9B38FD3 /* ZDSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC075EBFB5ABD30CDC1FD7943E89E82D /* Pods_ZDSiriWaveformView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDSiriWaveformView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDSiriWaveformView.h; sourceTree = "<group>"; };
+		E9AC59EB1D83B8C100561913 /* ZDSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDSiriWaveformView.m; sourceTree = "<group>"; };
+		F45F763054CE2E2CD536F6BC7A23F7E0 /* ZDSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZDSiriWaveformView.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9338F95A46F4A287C80AA96305535D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31285E09FC475EB8E2DE0C759C90475F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0451137C5EE44152B3CB17C5B6F7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA399C2D2548AC290DC70639895FCA03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB60E5D443965E8AEC20355E36B2A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5901681906A6CCF0FB33C608113923E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1340D8E87FB305FC4CF8B52F85F74E0F /* ZDSiriWaveformView */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD75F2F9BE7133C518DB4BE9AFD9AC /* Support Files */,
+				D2E14441B19E1FAFD7625E949814073B /* ZDSiriWaveformView */,
+			);
+			name = ZDSiriWaveformView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2E51EE20901CA08F58AECBB8C58B32AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB99C4B5615378BC6D2A35501AFA7920 /* Pods-ZDSiriWaveformView_Example */,
+				8579B01D76F16BEFBEFE167EA69EEA00 /* Pods-ZDSiriWaveformView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B8EFD58D6BA11D4CC31E9BFE966C3CB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1340D8E87FB305FC4CF8B52F85F74E0F /* ZDSiriWaveformView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5FCAB78910D91138A09A9848FCC3ECCB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9AC59EA1D83B8C100561913 /* ZDSiriWaveformView.h */,
+				E9AC59EB1D83B8C100561913 /* ZDSiriWaveformView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5B8EFD58D6BA11D4CC31E9BFE966C3CB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				98BF9100295231E46933DE36F00D888B /* Products */,
+				2E51EE20901CA08F58AECBB8C58B32AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8579B01D76F16BEFBEFE167EA69EEA00 /* Pods-ZDSiriWaveformView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A78860C452657A02092A208A0FF7C8 /* Info.plist */,
+				830E1580F52BA434FCDE79AC840DE2FD /* Pods-ZDSiriWaveformView_Tests.modulemap */,
+				527E501E73E1AE597DEE2EECC940AA8C /* Pods-ZDSiriWaveformView_Tests-acknowledgements.markdown */,
+				3477DE497ABBFD31A44D232A78DC47ED /* Pods-ZDSiriWaveformView_Tests-acknowledgements.plist */,
+				31DB2AAC69575994E587535CB9B10E90 /* Pods-ZDSiriWaveformView_Tests-dummy.m */,
+				D7B95E64DC63F9DA1E7CD2E597173F36 /* Pods-ZDSiriWaveformView_Tests-frameworks.sh */,
+				43D681FF4E7E8CA9B24F0BAA23D81644 /* Pods-ZDSiriWaveformView_Tests-resources.sh */,
+				1A2EEAE87D4D10556EBB85335B073FDC /* Pods-ZDSiriWaveformView_Tests-umbrella.h */,
+				72818831F4D6D50D82550936A48F3880 /* Pods-ZDSiriWaveformView_Tests.debug.xcconfig */,
+				456ED3D6207CDDC3CAB301589DCF60D2 /* Pods-ZDSiriWaveformView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZDSiriWaveformView_Tests";
+			path = "Target Support Files/Pods-ZDSiriWaveformView_Tests";
+			sourceTree = "<group>";
+		};
+		98BF9100295231E46933DE36F00D888B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E9865A093425E70CFF56CB1570FF7D1 /* Pods_ZDSiriWaveformView_Example.framework */,
+				DC075EBFB5ABD30CDC1FD7943E89E82D /* Pods_ZDSiriWaveformView_Tests.framework */,
+				D981AF2D4C1525FC13068CF0B9B38FD3 /* ZDSiriWaveformView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E14441B19E1FAFD7625E949814073B /* ZDSiriWaveformView */ = {
+			isa = PBXGroup;
+			children = (
+				5FCAB78910D91138A09A9848FCC3ECCB /* Classes */,
+			);
+			path = ZDSiriWaveformView;
+			sourceTree = "<group>";
+		};
+		FB99C4B5615378BC6D2A35501AFA7920 /* Pods-ZDSiriWaveformView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2E68CFA263B90E5358F457517B2AF /* Info.plist */,
+				36A52BCD27DDA7A4F34A333F8502F3E8 /* Pods-ZDSiriWaveformView_Example.modulemap */,
+				D31C54EF8792A2EDFC0DC07123D775BD /* Pods-ZDSiriWaveformView_Example-acknowledgements.markdown */,
+				2A4F986AA119F5D11071C864FAB9AD6F /* Pods-ZDSiriWaveformView_Example-acknowledgements.plist */,
+				A7B2B67683EA2A06911B17A493230CC7 /* Pods-ZDSiriWaveformView_Example-dummy.m */,
+				07F43314B96529C29AE5F1CD706E27AD /* Pods-ZDSiriWaveformView_Example-frameworks.sh */,
+				43D8A3310B6AF1DE71A4C4678B8F06D4 /* Pods-ZDSiriWaveformView_Example-resources.sh */,
+				C1A9CE05EE89CE8DFA81013078386091 /* Pods-ZDSiriWaveformView_Example-umbrella.h */,
+				79B4D90E17FF5577C168997B9FA779C1 /* Pods-ZDSiriWaveformView_Example.debug.xcconfig */,
+				7D63FE38DAD4A46E2FB86BABBD5AD7F0 /* Pods-ZDSiriWaveformView_Example.release.xcconfig */,
+			);
+			name = "Pods-ZDSiriWaveformView_Example";
+			path = "Target Support Files/Pods-ZDSiriWaveformView_Example";
+			sourceTree = "<group>";
+		};
+		FCAD75F2F9BE7133C518DB4BE9AFD9AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7029FA857602105FAA5C96B47EE1EF /* Info.plist */,
+				F45F763054CE2E2CD536F6BC7A23F7E0 /* ZDSiriWaveformView.modulemap */,
+				883C53FBEE789B6CCC324FECE7629177 /* ZDSiriWaveformView.xcconfig */,
+				236AA2083715D9002B4C5DCA0A9EC36B /* ZDSiriWaveformView-dummy.m */,
+				C3C6AE712CA307B5D5F7F486BD47D3A8 /* ZDSiriWaveformView-prefix.pch */,
+				25AB3E939EA1F988B21166A55292138A /* ZDSiriWaveformView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZDSiriWaveformView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		247607925E25D736EE88E96F7552F721 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60B2491849F9DF361F483B3CCB2E58 /* ZDSiriWaveformView-umbrella.h in Headers */,
+				E9AC59EE1D83B8EA00561913 /* ZDSiriWaveformView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CAD40F47DBDB706F710327029B291B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DEEC6D461EABB0454C804DE1DDB6A1 /* Pods-ZDSiriWaveformView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820B47AB0C233EBC7A15E95D3F24C7CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530977AAA1ADEA6306AFFC81EA57641B /* Pods-ZDSiriWaveformView_Example-umbrella.h in Headers */,
+				E9AC59EC1D83B8C100561913 /* ZDSiriWaveformView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2521FD504A000C663D5F230B662918D7 /* Pods-ZDSiriWaveformView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9632AFDA3BB7DA9139616087CA598689 /* Build configuration list for PBXNativeTarget "Pods-ZDSiriWaveformView_Example" */;
+			buildPhases = (
+				1273047D7E39B89368F05BDFA9C06099 /* Sources */,
+				9338F95A46F4A287C80AA96305535D30 /* Frameworks */,
+				820B47AB0C233EBC7A15E95D3F24C7CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4012EE49E1F12F679A8F041E2B9D7B /* PBXTargetDependency */,
+			);
+			name = "Pods-ZDSiriWaveformView_Example";
+			productName = "Pods-ZDSiriWaveformView_Example";
+			productReference = 4E9865A093425E70CFF56CB1570FF7D1 /* Pods_ZDSiriWaveformView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		481C8DB5E05A00DDADF452C61CD4662D /* Pods-ZDSiriWaveformView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A9600BE23633D1568637A43F2ECD99 /* Build configuration list for PBXNativeTarget "Pods-ZDSiriWaveformView_Tests" */;
+			buildPhases = (
+				1D4ABFE345D39D8BE7AC1AA30FA58F10 /* Sources */,
+				AF0451137C5EE44152B3CB17C5B6F7BD /* Frameworks */,
+				36CAD40F47DBDB706F710327029B291B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZDSiriWaveformView_Tests";
+			productName = "Pods-ZDSiriWaveformView_Tests";
+			productReference = DC075EBFB5ABD30CDC1FD7943E89E82D /* Pods_ZDSiriWaveformView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB9B04C914B4884A60574EF34E95CF02 /* ZDSiriWaveformView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7455BD4DDA107F08CB12C09568F47BFE /* Build configuration list for PBXNativeTarget "ZDSiriWaveformView" */;
+			buildPhases = (
+				AB5479995F9DFECA67A0356DD03B4595 /* Sources */,
+				BBB60E5D443965E8AEC20355E36B2A0C /* Frameworks */,
+				247607925E25D736EE88E96F7552F721 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDSiriWaveformView;
+			productName = ZDSiriWaveformView;
+			productReference = D981AF2D4C1525FC13068CF0B9B38FD3 /* ZDSiriWaveformView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 98BF9100295231E46933DE36F00D888B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2521FD504A000C663D5F230B662918D7 /* Pods-ZDSiriWaveformView_Example */,
+				481C8DB5E05A00DDADF452C61CD4662D /* Pods-ZDSiriWaveformView_Tests */,
+				AB9B04C914B4884A60574EF34E95CF02 /* ZDSiriWaveformView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1273047D7E39B89368F05BDFA9C06099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AC59ED1D83B8C100561913 /* ZDSiriWaveformView.m in Sources */,
+				85897A35927BA5BACBC7FE7AE8F32CD8 /* Pods-ZDSiriWaveformView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4ABFE345D39D8BE7AC1AA30FA58F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE23EE7120A42F18EC37ED370A2151EC /* Pods-ZDSiriWaveformView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5479995F9DFECA67A0356DD03B4595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2378B3635332DA97CDD3586A20D95DDE /* ZDSiriWaveformView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4012EE49E1F12F679A8F041E2B9D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDSiriWaveformView;
+			target = AB9B04C914B4884A60574EF34E95CF02 /* ZDSiriWaveformView */;
+			targetProxy = 96B436F41F87781A6CC49A40FA3D71EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02AC9BC43CC7E545DC8D40E0EC656848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B4D90E17FF5577C168997B9FA779C1 /* Pods-ZDSiriWaveformView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Example/Pods-ZDSiriWaveformView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZDSiriWaveformView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BBBD24F00E48C99DE83DBEF9F684BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456ED3D6207CDDC3CAB301589DCF60D2 /* Pods-ZDSiriWaveformView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Tests/Pods-ZDSiriWaveformView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZDSiriWaveformView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		551C62E110D944214D4FF416443A7168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883C53FBEE789B6CCC324FECE7629177 /* ZDSiriWaveformView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZDSiriWaveformView/ZDSiriWaveformView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZDSiriWaveformView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZDSiriWaveformView/ZDSiriWaveformView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZDSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7497256E18022A4B97079E6341E21544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D63FE38DAD4A46E2FB86BABBD5AD7F0 /* Pods-ZDSiriWaveformView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Example/Pods-ZDSiriWaveformView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZDSiriWaveformView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B311624C3928D2F3DC176653F32AB9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883C53FBEE789B6CCC324FECE7629177 /* ZDSiriWaveformView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZDSiriWaveformView/ZDSiriWaveformView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZDSiriWaveformView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZDSiriWaveformView/ZDSiriWaveformView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZDSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1A6ACCC2C9209C5C5DF8EB96E053301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72818831F4D6D50D82550936A48F3880 /* Pods-ZDSiriWaveformView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDSiriWaveformView_Tests/Pods-ZDSiriWaveformView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZDSiriWaveformView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A9600BE23633D1568637A43F2ECD99 /* Build configuration list for PBXNativeTarget "Pods-ZDSiriWaveformView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A6ACCC2C9209C5C5DF8EB96E053301 /* Debug */,
+				1BBBD24F00E48C99DE83DBEF9F684BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7455BD4DDA107F08CB12C09568F47BFE /* Build configuration list for PBXNativeTarget "ZDSiriWaveformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311624C3928D2F3DC176653F32AB9F4 /* Debug */,
+				551C62E110D944214D4FF416443A7168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9632AFDA3BB7DA9139616087CA598689 /* Build configuration list for PBXNativeTarget "Pods-ZDSiriWaveformView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AC9BC43CC7E545DC8D40E0EC656848 /* Debug */,
+				7497256E18022A4B97079E6341E21544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

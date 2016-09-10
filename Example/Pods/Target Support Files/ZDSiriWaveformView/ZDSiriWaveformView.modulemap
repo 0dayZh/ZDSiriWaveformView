@@ -1,0 +1,6 @@
+framework module ZDSiriWaveformView {
+  umbrella header "ZDSiriWaveformView-umbrella.h"
+
+  export *
+  module * { export * }
+}

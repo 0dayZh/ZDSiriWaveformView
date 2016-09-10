@@ -1,0 +1,16 @@
+PODS:
+  - ZDSiriWaveformView (0.1.0)
+
+DEPENDENCIES:
+  - ZDSiriWaveformView (from `../`)
+
+EXTERNAL SOURCES:
+  ZDSiriWaveformView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZDSiriWaveformView: 4aaba9af76f99077bc29ba76c224414f552642c3
+
+PODFILE CHECKSUM: 071f4573c7a75a8f3f628176494327ded76bb66e
+
+COCOAPODS: 1.0.1
