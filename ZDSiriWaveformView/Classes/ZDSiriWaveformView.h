@@ -10,4 +10,9 @@
 
 @interface ZDSiriWaveformView : UIView
 
+@property (nonatomic, assign) CGFloat   padding;    // default as 5
+
+- (void)appearAnimated:(BOOL)animated;
+- (void)disappearAnimated:(BOOL)animated;
+
 @end
